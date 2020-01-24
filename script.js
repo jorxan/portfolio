@@ -22,7 +22,7 @@ $(document).ready(function() {
 		window.location.replace('https://www.linkedin.com/in/jordan-albers-607201149/');
 	});
 	$('.logo').on('click', function() {
-		window.location.replace('about.html');
+		window.location.replace('index.html');
 	});
 	$('#submit').on('click', (event) => {
 		event.preventDefault();
