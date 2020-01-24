@@ -45,11 +45,14 @@ nav {
 }
 .nav-links a:hover i {
 	transition: all 0.5s;
+	opacity: 0;
+	transition: font-size 0.3s ease-out;
 	display: none;
 }
 .nav-links a:hover b {
 	transition: all 0.5s;
 	display: block;
+	transition: font-size 0.3s ease-in;
 }
 .burger {
 	display: none;
